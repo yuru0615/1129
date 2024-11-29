@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #box-a11 {
+            background-color: #f1f1aa;
+            width: calc(80% - 10px * 2);
+            height: calc(600px - 10px * 2);
+            margin: auto;
+            margin-top: 50px;
+            padding: 10px;
+        }
+
+        #box-header {
+            background-color: rgb(160, 138, 24);
+            width: 100%;
+            height: 20%;
+            margin-bottom: 10px;
+        }
+
+        #box-main {
+            background-color: #f1f1aa;
+            width: 100%;
+            height: calc(60% - 10px * 2 );
+            margin-bottom: 10px;
+        }
+
+        #box-main-left {
+            background-color: #8dddf8;
+            width: 34%;
+            height: 100%;
+            float: left;
+            margin-right: 10px;
+        }
+
+        #box-main-right {
+            background-color: #f1f1aa;
+            width: calc(66% - 10px);
+            height: 100%;
+            float: right;
+        }
+
+        #box-main-right-top {
+            background-color: rgb(240, 169, 240);
+            width: 100%;
+            height: calc(34% - 10px);
+            float: right;
+            margin-bottom: 10px;
+        }
+
+        #box-main-right-middle {
+            background-color: rgb(77, 8, 227);
+            width: 100%;
+            height: 32%;
+            float: right;
+            margin-bottom: 10px;
+        }
+
+        #box-main-right-bottom {
+            background-color: rgb(221, 153, 5);
+            width: 100%;
+            height: calc(34% - 10px);
+            float: right;
+        }
+
+        #box-footer {
+            background-color: rgb(15, 116, 83);
+            width: 100%;
+            height: 20%;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="box-a11">
+        <div id="box-header"></div>
+        <div id="box-main">
+            <div id="box-main-left"></div>
+            <div id="box-main-right">
+                <div id="box-main-right-top"></div>
+                <div id="box-main-right-middle"></div>
+                <div id="box-main-right-bottom"></div>
+            </div>
+        </div>
+        <div id="box-footer"></div>
+    </div>
+</body>
+
+</html>
